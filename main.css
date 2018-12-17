@@ -1,0 +1,142 @@
+html,body {
+  color:#111;
+  margin:0;
+	padding:0;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  background:#fff url('res/bg.png') scroll repeat-x 0px 0px;
+}
+
+h1 { 
+	font:2.5em georgia,serif;
+	margin:0.5em 1em;
+  position:absolute;
+  z-index:2;
+  color:white;
+}
+
+a {
+  color:#8E0000;
+}
+
+a:hover {
+  color:#A60000;
+}
+
+#container {
+  margin:0 auto;
+  width:75%;
+  min-width:480px;
+  max-width:1400px;
+  
+  background-color:#ccc;
+  overflow:hidden;
+  
+  border-left:1px solid black;
+  border-right:1px solid black; 
+}
+
+div#slider {
+  z-index:1;
+  width:100%;
+  height:100%;
+  height:230px;
+}
+
+div#separator {
+  background-color:#ccc;
+  height:25px;
+}
+
+div#content {
+  width:100%;
+  float:left;
+  background-color:#ccc;
+  
+  min-height:100%;  
+  height:auto !important;
+  height:100%;
+}
+
+div#leftRail {
+	float:left;
+	width:13%;
+}
+
+div#main {
+  float:left;
+  padding:1%;
+  background-color:white;
+  width:70%;
+}
+
+div#rightRail{
+	float:right;
+  width:*;
+  line-height:1.5em;
+}
+
+div.bordercolumn {
+	background-color:#ccc;
+  width:14%;
+  color:#8E0000;
+  height:100%;
+  font: 85% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+}
+
+div#footer {
+  background-color:#ccc;
+  color:#8E0000;
+  height:40px;
+  width:75%;
+  margin:0 auto;
+  text-align:center;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+}
+
+/* Box */
+div.box {
+  border:1px solid black;
+  background-color:#8E0000;
+  width:30%;
+  display:inline-block;
+  text-align:left;
+}
+
+div.box span {
+  color:white;
+  width:100%;
+  padding:0.2em; 
+}
+
+div.box img {
+  width:100%;
+}
+
+/* CSS Menu */
+.cssmenu {
+	background: #ccc;
+	list-style: none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.cssmenu li {
+	margin: 0;
+	padding: 0;
+}
+.cssmenu a {
+	background: #ccc;
+	color: #8E0000;
+	display: block;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+	font-weight:normal;
+}
+.cssmenu a:hover {
+  background: #8E0000 url('res/menuhover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 8px;
+}
