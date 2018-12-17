@@ -3,8 +3,8 @@
 <html>
 <head>
   <title>Ferienwohnung Marlies Schulte | Bad Westernkotten</title>
-  <link rel="stylesheet" href="lightbox.min.css" type="text/css" media="screen">
   <link rel="stylesheet" href="main.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="lightbox.min.css" type="text/css" media="screen">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
   crossorigin=""/>
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -179,11 +179,6 @@
         $("a[href='#anfahrt']").on('click', function(e) {
               map.invalidateSize();
         });
-        function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
-}
-
-map.on('click', onMapClick);
   });
   </script>
 </body>

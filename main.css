@@ -88,6 +88,7 @@ div#footer {
   color:#8E0000;
   height:40px;
   width:75%;
+  max-width:1400px;
   margin:0 auto;
   text-align:center;
   border-left:1px solid black;
