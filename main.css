@@ -140,3 +140,5 @@ div.box img {
 	color: #fff;
 	padding-bottom: 8px;
 }
+
+#mapid { min-height: 500px; }
